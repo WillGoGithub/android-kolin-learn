@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             tools:context=".BlankFragment1">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F1 Page"
+            android:textSize="24dp"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/f1Btn" android:text="F1 Test"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/f1Txt"/>
+
+</LinearLayout>

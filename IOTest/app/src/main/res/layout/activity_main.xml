@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <Button
+            android:text="SD Test1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSD1"
+            android:onClick="testSD1"
+    />
+
+    <Button
+            android:text="SD Test2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSD2"
+            android:onClick="testSD2"
+    />
+
+    <Button
+            android:text="DB Create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDBC"
+            android:onClick="testDBC"
+    />
+
+    <Button
+            android:text="DB Read"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDBR"
+            android:onClick="testDBR"
+    />
+
+    <Button
+            android:text="DB Delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDBD"
+            android:onClick="testDBD"
+    />
+
+    <Button
+            android:text="DB Update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDBU"
+            android:onClick="testDBU"
+    />
+
+    <Button
+            android:text="DB Create order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDBOC"
+            android:onClick="testDBOC"
+    />
+
+    <Button
+            android:text="DB JOIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDBJOIN"
+            android:onClick="testDBJOIN"
+    />
+
+    <Button
+            android:text="INTERNET Test1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonI1"
+            android:onClick="testI1"
+    />
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/scroll" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+
+    <Button
+            android:text="IO Test1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:onClick="test1"
+    />
+    <Button
+            android:text="IO Test2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:onClick="test2"/>
+    <Button
+            android:text="IO Test3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:onClick="test3"/>
+    <Button
+            android:text="IO Test4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:onClick="test4"/>
+    <Button
+            android:text="IO Test5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:onClick="test5"/>
+
+</LinearLayout>

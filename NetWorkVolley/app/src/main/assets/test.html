@@ -1,0 +1,15 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h1>Company</h1>
+<hr>
+Hello.
+<a href="map.html">Go</a>
+<hr>
+<input type="button" onclick="createLottery()" value="Go" />
+<br>
+Lottery: <span id="lottery"></span>
+<script>
+    function createLottery() {
+        var lottery = document.getElementById('lottery');
+        lottery.innerHTML = parseInt(Math.random() * 49 + 1);
+    }
+</script>
